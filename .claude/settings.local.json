@@ -12,7 +12,12 @@
       "Bash(dotnet new:*)",
       "Bash(dotnet sln add:*)",
       "Bash(dotnet build)",
-      "Bash(dotnet test)"
+      "Bash(dotnet test)",
+      "Bash(echo $HOME)",
+      "Read(//c/users/nmill/**)",
+      "mcp__gemini-cli__ask-gemini",
+      "Bash(npm info:*)",
+      "Bash(gh:*)"
     ],
     "deny": [],
     "ask": []
