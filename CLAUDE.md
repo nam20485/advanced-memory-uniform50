@@ -34,14 +34,22 @@ Agents MUST resolve dynamic workflows from the remote canonical repository. Do n
 Agents MUST resolve workflow assignments (by shortId) from the remote canonical repository. Do not use local mirrors.
 [ai-workflow-assignments.md](../local_ai_instruction_modules/ai-workflow-assignments.md)
 
+## Delegation Mandate (**REQUIRED**)
+Orchestrator agents MUST delegate technical work to specialist agents. Minimum 75% delegation coverage required.
+[ai-delegation-mandate.md](../local_ai_instruction_modules/ai-delegation-mandate.md)
+
 ## Terminal Commands (Optional)
 Read before running any terminal commands, of if you need Github CL.I
 - [ai-terminal-commands.md](../local_ai_instruction_modules/ai-terminal-commands.md)
 
 ## Tools & Automation Protocol (REQUIRED)
-Agents must prefer automation-first approaches and use only the currently-selected tools. Review the local module for the full policy and the enumerated toolset:
+Agents must prefer automation-first approaches and use available tools efficiently. Review the local module for the full policy:
 - [ai-tools-and-automation.md](../local_ai_instruction_modules/ai-tools-and-automation.md)
-- Selected toolset JSON (exactly 126 enabled tools): [toolset.selected.json](../local_ai_instruction_modules/toolset.selected.json)
+
+## Enhanced Filesystem Capabilities (REQUIRED)
+Maximize filesystem operation effectiveness using available MCP servers and built-in tools:
+- [ai-enhanced-filesystem.md](../local_ai_instruction_modules/ai-enhanced-filesystem.md)
+- Setup script: [setup-enhanced-filesystem.ps1](../scripts/setup-enhanced-filesystem.ps1)
 
 Key rules:
 - Use MCP GitHub tools first, then VS Code integration, and only fall back to terminal gh as a last resort.

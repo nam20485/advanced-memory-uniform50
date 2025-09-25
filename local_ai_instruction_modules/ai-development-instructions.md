@@ -101,8 +101,8 @@ This repository is a **template for AI-assisted application development** that e
 - Dynamic workflows resolved from remote canonical sources
 - Resolve all dynamic workflow assignment and the workflow assignments contained inside before planning or acting.
 
-**Tool Configuration**: 
-- `toolset.selected.json` defines enabled tools (126 tools enabled)
+**Tool Configuration**:
+- Use dynamic tool discovery to identify available capabilities
 - Web-fetch tool disabled - use PowerShell `Invoke-WebRequest` instead
 - MCP filesystem, GitHub, Sequential Thinking, Memory, and Gemini tools are primary automation interfaces
 - **REQUIRED MCP SERVERS**: filesystem, github, sequential-thinking, memory, gemini-cli, desktop-commander

@@ -41,7 +41,7 @@ Read before running any terminal commands, of if you need Github CL.I
 ## Tools & Automation Protocol (REQUIRED)
 Agents must prefer automation-first approaches and use only the currently-selected tools. Review the local module for the full policy and the enumerated toolset:
 - [ai-tools-and-automation.md](../local_ai_instruction_modules/ai-tools-and-automation.md)
-- Selected toolset JSON (exactly 126 enabled tools): [toolset.selected.json](../local_ai_instruction_modules/toolset.selected.json)
+- Use dynamic tool discovery to identify available automation capabilities
 
 Key rules:
 - Use MCP GitHub tools first, then VS Code integration, and only fall back to terminal gh as a last resort.
